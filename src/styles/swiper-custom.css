@@ -1,0 +1,36 @@
+/* Custom Swiper Styles */
+
+/* Fix for fade effect to prevent stacking */
+.swiper-fade {
+  --swiper-effect-fade-offset: 0px;
+}
+
+.swiper-wrapper {
+  position: relative !important;
+}
+
+.swiper-slide {
+  opacity: 0 !important;
+  transition: opacity 0.8s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+  z-index: 2;
+}
+
+/* Improve slide animations */
+.swiper-slide-prev,
+.swiper-slide-next {
+  pointer-events: none;
+}
+
+/* Custom pagination styles */
+.swiper-pagination-bullet {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+} 

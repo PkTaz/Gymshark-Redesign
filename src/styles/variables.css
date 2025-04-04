@@ -1,0 +1,79 @@
+:root {
+  /* === Colors === */
+  /* Primary colors */
+  --primary: #C3D7AE;          /* Soft sage green */
+  --primary-dark: #A7BD8E;     /* Deeper sage */
+  --primary-light: #D5E4C7;    /* Light sage */
+  
+  /* Accent colors */
+  --accent: #F8AFA6;           /* Spring coral */
+  --accent-dark: #F4948A;      /* Deeper coral */
+  --accent-light: #FCC8C2;     /* Light coral */
+  
+  /* Neutral colors */
+  --white: #FAFDF7;            /* Clean white with hint of green */
+  --light-gray: #E9EDE4;       /* Light gray with warm undertone */
+  --medium-gray: #C2C7BD;      /* Medium gray with warm undertone */
+  --dark-gray: #A5A99A;        /* Darker gray with warm undertone */
+  --black: #1A1A1A;            /* Soft black */
+  
+  /* UI Colors */
+  --success: #A7BD8E;          /* Success - sage */
+  --error: #F4948A;            /* Error - coral */
+  --warning: #F3E9C6;          /* Warning - buttercream */
+  --info: #D8D2E1;             /* Info - soft lavender */
+  
+  /* === Typography === */
+  /* Font families */
+  --font-family: 'Neue Helvetica', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+  /* Font sizes */
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-md: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 1.875rem;  /* 30px */
+  --font-size-4xl: 2.25rem;   /* 36px */
+  --font-size-5xl: 3rem;      /* 48px */
+  
+  /* === Spacing === */
+  --spacing-1: 0.25rem;       /* 4px */
+  --spacing-2: 0.5rem;        /* 8px */
+  --spacing-3: 0.75rem;       /* 12px */
+  --spacing-4: 1rem;          /* 16px */
+  --spacing-5: 1.25rem;       /* 20px */
+  --spacing-6: 1.5rem;        /* 24px */
+  --spacing-8: 2rem;          /* 32px */
+  --spacing-10: 2.5rem;       /* 40px */
+  --spacing-12: 3rem;         /* 48px */
+  --spacing-16: 4rem;         /* 64px */
+  --spacing-20: 5rem;         /* 80px */
+  --spacing-24: 6rem;         /* 96px */
+  --spacing-32: 8rem;         /* 128px */
+  
+  /* === Borders === */
+  --border-radius-sm: 0.125rem;  /* 2px */
+  --border-radius-md: 0.25rem;   /* 4px */
+  --border-radius-lg: 0.5rem;    /* 8px */
+  --border-radius-xl: 1rem;      /* 16px */
+  --border-radius-full: 9999px;  /* Circular */
+  
+  /* === Shadows === */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  
+  /* === Transitions === */
+  --transition-fast: 150ms;
+  --transition-normal: 300ms;
+  --transition-slow: 500ms;
+  
+  /* === Layout === */
+  --header-height: 4rem;        /* 64px */
+  --footer-height: 12rem;       /* 192px */
+  --container-width: 1280px;    /* Max width of centered content */
+  --nav-width: 16rem;           /* 256px - sidebars etc */
+} 
