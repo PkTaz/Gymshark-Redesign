@@ -1,4 +1,4 @@
-# <p align="center"><img src="https://cdn.gymshark.com/images/branding/gs-icon-text.svg" alt="Gymshark Logo" width="250"/></p>
+# <p align="center"><img src="https://cdn.gymshark.com/images/branding/gs-icon-text.svg" alt="Gymshark Logo" width="250" style="background-color: white; padding: 15px; border-radius: 8px;"/></p>
 
 <p align="center">
   <strong>Gymshark Store Redesign: For higher turnover from user to customer!</strong>
